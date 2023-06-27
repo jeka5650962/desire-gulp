@@ -65,9 +65,11 @@
     }
 
     &__info-email {
+        display: inline-block;
         font-size: 14px;
         font-weight: 600;
         color: $title;
+        margin: 0 0 22px 0;
     }
 
     &__copyright {
