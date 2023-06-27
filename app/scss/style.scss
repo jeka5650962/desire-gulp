@@ -4,3 +4,27 @@
 @import "libs";
 @import "global";
 
+.header {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.menu {
+    &__list {
+        display: flex;
+    }
+    &__list-link {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.375;
+        color: rgba(54, 56, 56, 0.90);
+    }
+}
+
+.logo {
+    margin: 0 auto;
+}
