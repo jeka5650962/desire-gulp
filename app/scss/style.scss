@@ -72,6 +72,17 @@
         color: $title;
         margin: 0 0 22px 0;
         padding: 0 0 0 30px;
+        position: relative;
+
+        &::before {
+            content: '';
+            background: url("../images/src/envelope.svg") 0 0 no-repeat;
+            position: absolute;
+            top: 9px;
+            left: 0;
+            width: 16px;
+            height: 12px;
+        }
     }
 
     &__form {
@@ -119,6 +130,58 @@
     &__social-link,
     &__menu-link {
         color: #707070;
+    }
+
+    &__social-link {
+        padding: 0 0 0 28px;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 3px;
+            left: 0;
+            width: 16px;
+            height: 16px;
+        }
+    }
+
+    &__social-link--facebook::before {
+        background: url("../images/src/facebook.svg") 0 0 no-repeat;
+        top: 2px;
+    }
+
+    &__social-link--instagram::before {
+        background: url("../images/src/instagram.svg") 0 0 no-repeat;
+        top: 4px;
+        width: 14px;
+        height: 15px;
+    }
+
+    &__social-link--pinterest::before {
+        background: url("../images/src/pinterest.svg") 0 0 no-repeat;
+    }
+
+    &__social-link--whatsapp::before {
+        background: url("../images/src/whatsapp.svg") 0 0 no-repeat;
+        width: 14px;
+        height: 14px;
+    }
+
+    &__social-link--youtube::before {
+        background: url("../images/src/youtube.svg") 0 0 no-repeat;
+        top: 4px;
+        width: 18px;
+        height: 12px;
+    }
+
+    &__social {
+        width: 167px;
+    }
+
+    &__menu {
+        margin: 0 62px 0 0;
+        width: 130px;
     }
 
     &__copyright {
