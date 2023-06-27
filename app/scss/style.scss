@@ -74,6 +74,13 @@
         padding: 0 0 0 30px;
     }
 
+    &__form-input {
+        padding: 6px 10px 6px 18px;
+        border: 1px solid rgba(56, 54, 54, 0.7);
+        border-radius: 21px;
+        background-color: transparent;
+    }
+
     &__copyright {
         background-color: $title;
         color: #a1a1a1;
