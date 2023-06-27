@@ -9,19 +9,24 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        height: 120px;
     }
 }
 
 .menu {
     &__list {
         display: flex;
+        margin: 0 62px 0 32px;
     }
+
+    &__list-item:first-child {
+        margin: 0 80px 0 0;
+    }
+
     &__list-link {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 1.375;
-        color: rgba(54, 56, 56, 0.90);
+        @extend %title-font;
+        line-height: 22px;
+        color: rgba(54, 56, 56, 0.9);
     }
 }
 
