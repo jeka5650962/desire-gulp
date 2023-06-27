@@ -4,6 +4,8 @@
 @import "libs";
 @import "global";
 
+/* ------------------ HEADER ------------------ */
+
 .header {
     &__inner {
         display: flex;
@@ -33,3 +35,6 @@
 .logo {
     margin: 0 auto;
 }
+
+/* ------------------ FOOTER ------------------ */
+
