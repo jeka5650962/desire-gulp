@@ -105,6 +105,22 @@
         margin: 0 0 0 9px;
     }
 
+    &__social-item,
+    &__menu-item {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    &__social-item:not(:last-child),
+    &__menu-item:not(:last-child) {
+        margin: 0 0 15px 0;
+    }
+
+    &__social-link,
+    &__menu-link {
+        color: #707070;
+    }
+
     &__copyright {
         background-color: $title;
         color: #a1a1a1;
