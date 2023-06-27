@@ -92,11 +92,11 @@
         font-size: 16px;
         font-weight: 600;
         line-height: 28px;
-        color: #fff;
+        color: #fffff0;
         padding: 6px 12px;
         background-color: $title;
         border-radius: 21px;
-        width: 160px;
+        min-width: 160px;
     }
 
     &__copyright {
