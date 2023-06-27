@@ -49,11 +49,25 @@
         justify-content: space-between;
     }
 
+    &__info {
+        width: 539px;
+    }
+
     &__info-title {
         @extend %title-font;
         color: $title;
         line-height: 23px;
         margin: 0 0 14px 0;
+    }
+
+    &__info-text {
+        margin: 0 0 16px 0;
+    }
+
+    &__info-email {
+        font-size: 14px;
+        font-weight: 600;
+        color: $title;
     }
 
     &__copyright {
