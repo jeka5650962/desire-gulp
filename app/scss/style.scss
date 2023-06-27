@@ -38,3 +38,14 @@
 
 /* ------------------ FOOTER ------------------ */
 
+.footer {
+    &__content {
+        background-color: #dfdfdf;
+    }
+    &__copyright {
+        background-color: $title;
+        color: #a1a1a1;
+        text-align: center;
+        padding: 42px 28px 41px;
+    }
+}
