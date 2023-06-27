@@ -44,6 +44,11 @@
         padding: 61px 80px;
     }
 
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
     &__info-title {
         @extend %title-font;
         color: $title;
