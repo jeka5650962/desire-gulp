@@ -79,6 +79,24 @@
         border: 1px solid rgba(56, 54, 54, 0.7);
         border-radius: 21px;
         background-color: transparent;
+        width: 368px;
+        font-size: 16px;
+        line-height: 28px;
+
+        &::placeholder {
+            color: #a1a1a1;
+        }
+    }
+
+    &__form-btn {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+        color: #fff;
+        padding: 6px 12px;
+        background-color: $title;
+        border-radius: 21px;
+        width: 160px;
     }
 
     &__copyright {
