@@ -41,7 +41,16 @@
 .footer {
     &__content {
         background-color: #dfdfdf;
+        padding: 61px 80px;
     }
+
+    &__info-title {
+        @extend %title-font;
+        color: $title;
+        line-height: 23px;
+        margin: 0 0 14px 0;
+    }
+
     &__copyright {
         background-color: $title;
         color: #a1a1a1;
